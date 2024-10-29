@@ -1,0 +1,63 @@
+body{
+color: antiquewhite;
+background: black;
+margin: 0px;
+font-family: "chakra petch", sans-serif;
+margin-bottom: 100;
+
+}
+header{
+
+border-bottom: solid 2px  rgb(88, 26, 146);
+padding: 20px;
+font-size: 32px;
+color: antiquewhite;
+}
+.capa{
+background: rgb(88, 26, 146);
+padding-bottom: 80px;
+display: flex;
+justify-content: center;
+    
+}
+
+.capa-texto{
+margin-right: 5%;
+
+}
+
+h1{
+font-size: 40px;
+
+
+}
+p{
+font-size: 20px;
+
+}
+.categoria-musicas img{
+height: 200px;
+opacity: 0.5;
+}
+.categoria-musicas{
+display: flex;
+overflow-x: auto;
+gap: 10px;
+
+
+}
+.categoria{
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
+
+}
+.categoria-musicas img:hover{
+opacity: 1.0;
+border: solid 1px antiquewhite;
+
+}
+.categoria h2{
+color: antiquewhite;
+
+}
